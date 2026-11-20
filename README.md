@@ -2,10 +2,10 @@
 
 Homebrew tap for [tmb](https://github.com/trustmybot/tmb-releases), a harness for coding agents.
 
+**Not supported yet.** Homebrew quarantines what it downloads, and macOS blocks tmb ("Apple could not verify…") because tmb is not notarized yet. Install with the script instead:
+
 ```sh
-brew install --cask trustmybot/tmb/tmb@dev   # dev channel, installs tmb-dev
+curl -fsSL https://github.com/trustmybot/tmb-releases/releases/download/dev/install.sh | sh
 ```
 
-The `tmb` (stable) and `tmb@rc` casks appear here with the first stable and rc releases. tmb updates itself from its channel, so `brew upgrade` leaves it alone.
-
-The casks are written by tmb's release workflow; do not edit them by hand.
+The casks here are written by tmb's release workflow; do not edit them by hand. Support is tracked in [trustmybot/tmb#91](https://github.com/trustmybot/tmb/issues/91).
