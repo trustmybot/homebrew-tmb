@@ -2,7 +2,7 @@
 # release: do not edit the rendered copy in the tap, edit this template.
 # A formula, not a cask: Homebrew quarantines what a cask downloads, and macOS then refuses a
 # binary that is not notarized. A formula's download is not quarantined.
-class TmbATDev < Formula
+class TmbDev < Formula
   desc "Harness for coding agents: a record, a code graph and an enforced workflow"
   homepage "https://github.com/trustmybot/tmb-releases"
   version "0.1.0-dev.57.gh109"
